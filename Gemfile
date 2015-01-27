@@ -4,9 +4,7 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
-# Use sqlite3 as the database for development and test
-gem 'sqlite3', '~> 1.3.10' group:[:development, :test]
+gem 'rails', '4.2.0' 
 # Use postgres as the database in production
 gem 'pg', group: :production
 # Add 12 factor for Heroku
@@ -47,5 +45,7 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  # Use sqlite3 as the database for development and test
+  gem 'sqlite3', '~> 1.3.10'
 end
 
