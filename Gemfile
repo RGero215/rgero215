@@ -6,7 +6,7 @@ ruby '2.2.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0' 
 # Use postgres as the database in production
-gem 'pg', group: :production
+gem 'pg', '~> 0.18.1', group: :production
 # Add 12 factor for Heroku
 gem 'rails_12factor', group: :production
 # Use bootstrap for improving the look and feel
