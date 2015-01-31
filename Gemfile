@@ -15,8 +15,6 @@ gem 'bootstrap-sass'
 gem 'stripe', '~> 1.18.0'
 # Figaro gem for securely managing credentials
 gem 'figaro'
-# Add letter opener for handling emails in development
-gem 'letter_opener', '~> 1.3.0', group: :development
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -55,5 +53,7 @@ group :development, :test do
   gem 'spring'
   # Use sqlite3 as the database for development and test
   gem 'sqlite3', '~> 1.3.10'
+  # Add letter opener for handling emails in development
+  gem 'letter_opener', '~> 1.3.0'
 end
 
